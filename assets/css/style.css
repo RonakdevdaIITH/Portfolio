@@ -1445,7 +1445,7 @@ footer .credits a {
   color: #fff;
 }
 
-.button{
+.buttonboi{
 	display: flex;
 	position: absolute;
 	overflow: hidden;
@@ -1458,7 +1458,7 @@ footer .credits a {
   -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.3)));
   
 }
-.button span{
+.buttonboi span{
 	display: block;
 	position: relative;
 	transition:0.3s ease-in-out all;
@@ -1469,7 +1469,7 @@ footer .credits a {
   width: 100%;
 
 }
-.button span:after{
+.buttonboi span:after{
 	display: block;
 	content: attr(data-title);
 	position: absolute;
@@ -1483,6 +1483,6 @@ footer .credits a {
   width: 100%;
 }
 
-.button:hover span{
+.buttonboi:hover span{
 	transform:translate3d(0px,0px,-30px) rotateX(90deg);
 }
